@@ -2,10 +2,10 @@
   "name": "leetcode_typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "src/hello_world.ts",
+  "main": "scrapbook/hello_world.ts",
   "scripts": {
     "build": "npx tsc",
-    "hello": "node build/src/hello_world.js",
+    "hello": "node build/scrapbook/hello_world.js",
     "test": "npx jest"
   },
   "repository": {

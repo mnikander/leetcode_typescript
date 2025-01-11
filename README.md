@@ -18,6 +18,8 @@ git clone ...  # this repo
 cd leetcode_typescript
 npx tsc hello_world.ts    # compile the hello world example
 node build/hello_world.js # run the hello world example
+npm test                  # execute unit tests
+npm test -- --coverage    # check the test coverage
 ```
 
 ## Learning resources

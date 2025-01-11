@@ -1,0 +1,28 @@
+{
+  "name": "leetcode_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/hello_world.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "hello": "node build/src/hello_world.js",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnikander/leetcode_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnikander/leetcode_typescript/issues"
+  },
+  "homepage": "https://github.com/mnikander/leetcode_typescript#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}

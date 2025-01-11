@@ -1,0 +1,16 @@
+class Dog {
+}
+
+class Cat {
+}
+
+function makeSound(animal: Dog) { // error TS2393: Duplicate function implementation.
+    console.log("Woof!");
+}
+
+function makeSound(animal: Cat) { // error TS2393: Duplicate function implementation.
+    console.log("Meow!");
+}
+
+makeSound(new Dog());
+makeSound(new Cat());

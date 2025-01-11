@@ -9,7 +9,6 @@ The emphasis is NOT on efficient solutions, but on learning the basics of TypeSc
 Install system dependencies:
 ```bash
 sudo apt install nodejs npm
-npm install typescript
 ```
 
 Clone, build, and run:
@@ -23,6 +22,4 @@ npm test -- --coverage    # check the test coverage
 ```
 
 ## Learning resources
-- More info on [unit testing in nodejs](https://nodejs.org/api/test.html)
 - [W3 schools TypeScript tutorial](https://www.w3schools.com/typescript/index.php)
-
